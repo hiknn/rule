@@ -1,1 +1,37 @@
+# NAME: Emby Address
+# UPDATED: 2024-10-31 
 
+#AlphaTV海外服
+#主线路
+DOMAIN-SUFFIX,http://oversea.alphatvapp.top
+#临时线路1
+DOMAIN-SUFFIX,http://154.40.33.88
+#临时线路2
+DOMAIN-SUFFIX,http://moonos.alphatvapp.top
+
+#hkaemby
+#源站
+DOMAIN-SUFFIX,http://hka-emby.aliz.work
+#镜像站1
+DOMAIN-SUFFIX https://hka-emby1.aliz.work
+#镜像站2
+DOMAIN-SUFFIX https://hka-emby2.aliz.work
+
+
+
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
