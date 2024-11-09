@@ -47,12 +47,15 @@ DOMAIN-SUFFIX,play.charontv.com
 #纸片人
 
 #非越媒体库
-#IPV4直连
+#IPV4
 DOMAIN-SUFFIX,z.sfcj.org
-#CF中转
+DOMAIN-SUFFIX,jg.sfcj.org
+DOMAIN-SUFFIX,ju.sfcj.org
+#46兼容
 DOMAIN-SUFFIX,cf.sfcj.org
-#IPV6直连
+#IPV6
 DOMAIN-SUFFIX,v6.sfcj.org
+DOMAIN-SUFFIX,jg6.sfcj.org
 
 #牢大的野兽餐厅
 #Ca-V2:
