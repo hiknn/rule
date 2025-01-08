@@ -3,28 +3,18 @@
 
 #AlphaTV海外服
 #主线路
-DOMAIN-SUFFIX,oversea.alphatvapp.top
-#临时线路1
-DOMAIN-SUFFIX,154.40.33.88
-#临时线路2
-DOMAIN-SUFFIX,moonos.alphatvapp.top
+# DOMAIN-SUFFIX,oversea.alphatvapp.top
+#主线路ip链接
+# DOMAIN-SUFFIX,107.181.238.190
+#甲骨文首尔1
+DOMAIN-SUFFIX,ok.alphatvapp.top
+#甲骨文首尔2
+DOMAIN-SUFFIX,ok2.alphatvapp.top
 
-#hkaemby
-#源站
-DOMAIN-SUFFIX,hka-emby.aliz.work
-#镜像站1
-DOMAIN-SUFFIX,hka-emby1.aliz.work
-#镜像站2
-DOMAIN-SUFFIX,hka-emby2.aliz.work
-
-#AWA影视
-DOMAIN-SUFFIX,emby.awatv.de
 
 #Misty
 DOMAIN-SUFFIX,misty.cx
 
-#Nanflix（天南小筑）
-DOMAIN-SUFFIX,nanflix.net
 
 #CC公益
 #主面板
@@ -33,22 +23,25 @@ DOMAIN-SUFFIX,cc.coemn.com
 DOMAIN-SUFFIX,cc.embycc.link
 
 #飞跃彩虹
-#CDN线路
-DOMAIN-SUFFIX,581658.best
-#直连线路
+#CF线路
+# DOMAIN-SUFFIX,581658.best
+#直连线路1
 DOMAIN-SUFFIX,7777777.buzz
+#直连线路2
+DOMAIN-SUFFIX,193.122.114.13
 
 #yomo服不服
-DOMAIN-SUFFIX,emby.yomo.lol
+# DOMAIN-SUFFIX,emby.yomo.lol
 
 #charontv
 DOMAIN-SUFFIX,play.charontv.com
 
 #纸片人
+DOMAIN-SUFFIX,embyplus.org 
 
 #非越媒体库
 #IPV4
-DOMAIN-SUFFIX,z.sfcj.org
+# DOMAIN-SUFFIX,z.sfcj.org
 DOMAIN-SUFFIX,jg.sfcj.org
 DOMAIN-SUFFIX,ju.sfcj.org
 #46兼容
@@ -66,12 +59,8 @@ DOMAIN-SUFFIX,emby-mica-us-v1.mius.uk
 DOMAIN-SUFFIX,emby-mica-hk-v4.mius.uk
 #HK-YXVM-分流2
 DOMAIN-SUFFIX,emby-mica-yxvm-hk-v4.mius.uk
-
-#TreeDiagram
-DOMAIN-SUFFIX,789.123456.al 
-
-#paul
-DOMAIN-SUFFIX,cf.imetyou.top
+#HK-分流3
+DOMAIN-SUFFIX,emby-mica-hk3-v4.mius.uk
 
 #nyamedia
-DOMAIN-SUFFIX,emby.bangumi.ca
+# DOMAIN-SUFFIX,emby.bangumi.ca
