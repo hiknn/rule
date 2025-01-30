@@ -2,18 +2,6 @@
 #!name=emby地址
 #!desc=仅直连
 
-
-#AlphaTV海外服
-#主线路
-DOMAIN-SUFFIX,oversea.alphatvapp.top,DIRECT
-#主线路ip链接
-DOMAIN-SUFFIX,107.181.238.190,DIRECT
-#甲骨文首尔1
-#DOMAIN-SUFFIX,ok.alphatvapp.top
-#甲骨文首尔2
-#DOMAIN-SUFFIX,ok2.alphatvapp.top
-
-
 #Misty
 #DOMAIN-SUFFIX,misty.cx
 
@@ -66,3 +54,9 @@ DOMAIN-SUFFIX,z.sfcj.org,DIRECT
 
 #nyamedia
 DOMAIN-SUFFIX,emby.bangumi.ca,DIRECT
+
+#nanflix
+DOMAIN-SUFFIX,us.nanflix.net,DIRECT
+
+#saturday
+DOMAIN-SUFFIX,lite.saturday.video,DIRECT
