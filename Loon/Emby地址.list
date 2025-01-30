@@ -64,3 +64,9 @@ DOMAIN-SUFFIX,z.sfcj.org
 
 #nyamedia
 DOMAIN-SUFFIX,emby.bangumi.ca
+
+#nanflix
+DOMAIN-SUFFIX,us.nanflix.net
+
+#saturday
+DOMAIN-SUFFIX,lite.saturday.video
