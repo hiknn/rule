@@ -1,16 +1,6 @@
 # NAME: Emby地址 Address
 # UPDATED: 2024-01-30
 
-#AlphaTV海外服
-#主线路
-DOMAIN-SUFFIX,oversea.alphatvapp.top
-#主线路ip链接
-DOMAIN-SUFFIX,107.181.238.190
-#甲骨文首尔1
-#DOMAIN-SUFFIX,ok.alphatvapp.top
-#甲骨文首尔2
-#DOMAIN-SUFFIX,ok2.alphatvapp.top
-
 
 #Misty
 #DOMAIN-SUFFIX,misty.cx
