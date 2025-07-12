@@ -1,1 +1,31 @@
+# NAME： 直连Emby
+# 更新时间：2025 年 7 月 12 日
+
+#飞跃彩虹
+DOMAIN-SUFFIX，ch.feiyue.lol
+
+#NanflixUSA
+DOMAIN-SUFFIX，us.nanflix.net
+
+#SaturDay.Lite
+DOMAIN-SUFFIX，lite.saturdayvideo.top
+
+#Yomo
+DOMAIN-SUFFIX，emby.yamo.uk
+
+#非越媒体库
+#V4线路
+DOMAIN-SUFFIX，z.sfcj.org
+#V4/V6线路
+DOMAIN-SUFFIX，cf.sfcj.org
+
+#BBEMBY
+DOMAIN-SUFFIX，beebi.org
+
+@nyamedia
+DOMAIN-SUFFIX，emby.bangumi.ca
+
+
+
+
 
