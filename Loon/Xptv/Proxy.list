@@ -18,3 +18,8 @@ DOMAIN-SUFFIX,dytt-cinema.com
 #零度影视
 DOMAIN-SUFFIX,dytt-look.com
 
+#欧乐
+DOMAIN-SUFFIX,olemovienews.com
+DOMAIN-SUFFIX,olelive.com:443
+
+
