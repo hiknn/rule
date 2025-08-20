@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,emby.yamo.uk
 
 #非越媒体库
 #V4线路
-DOMAIN-SUFFIX,z.sfcj.org
+DOMAIN-SUFFIX,cdn.sfcj.org
 #V4/V6线路
 DOMAIN-SUFFIX,cf.sfcj.org
 
