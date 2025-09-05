@@ -1,6 +1,10 @@
 # NAME：代理Emby
 # 更新时间：2025 年 7 月 12 日
 
+#SNTP Medis Lite
+DOMAIN-SUFFIX,lite.cn2gias.uk
+DOMAIN-SUFFIX,lite-v6.cn2gias.uk
+
 #CC公益
 DOMAIN-SUFFIX,cc.embycc.link
 DOMAIN-SUFFIX,carryz.net
