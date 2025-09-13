@@ -4,15 +4,16 @@
 #SNTP Medis Lite
 DOMAIN-SUFFIX,lite.cn2gias.uk
 DOMAIN-SUFFIX,lite-v6.cn2gias.uk
+IP-CIDR,38.147.107.197/32
 
 #CC公益
 DOMAIN-SUFFIX,cc.embycc.link
 DOMAIN-SUFFIX,carryz.net
+IP-CIDR,104.21.0.0/16
 
 #Misty
 DOMAIN-SUFFIX,misty.cx
+IP-CIDR,104.21.0.0/16
 
-#Zn的影视库
-DOMAIN-SUFFIX,emby.zn.al
 
 
