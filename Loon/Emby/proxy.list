@@ -9,10 +9,14 @@ IP-CIDR,38.147.107.197/32
 #CC公益
 DOMAIN-SUFFIX,cc.embycc.link
 DOMAIN-SUFFIX,carryz.net
-IP-CIDR,104.21.0.0/16
 
 #Misty
 DOMAIN-SUFFIX,misty.cx
+
+#nyamedia
+DOMAIN-SUFFIX,emby.bangumi.ca
+
+#CC公益、Misty、nyamedia通用
 IP-CIDR,104.21.0.0/16
 
 
