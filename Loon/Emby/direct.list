@@ -36,7 +36,6 @@ IP-CIDR,172.67.131.250/32
 
 #nyamedia
 DOMAIN-SUFFIX,emby.bangumi.ca
-IP-CIDR,104.21.0.0/16
 
 #ZoxFree
 DOMAIN-SUFFIX,zoxfree.3767483.xyz
