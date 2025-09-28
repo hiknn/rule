@@ -2,22 +2,28 @@
 # 更新时间：2025 年 7 月 12 日
 
 #SNTP Medis Lite
-DOMAIN-SUFFIX,lite.cn2gias.uk
-DOMAIN-SUFFIX,lite-v6.cn2gias.uk
+DOMAIN,lite.cn2gias.uk
+DOMAIN,lite-v6.cn2gias.uk
+DOMAIN-SUFFIX,.cn2gias.uk
 IP-CIDR,38.147.107.197/32
 
 #CC公益
-DOMAIN-SUFFIX,cc.embycc.link
+DOMAIN,cc.embycc.link
+DOMAIN-SUFFIX,.embycc.link
+DOMAIN,carryz.net
 DOMAIN-SUFFIX,carryz.net
 
 #Misty
-DOMAIN-SUFFIX,misty.cx
+DOMAIN,misty.cx
+DOMAIN-SUFFIX,.misty.cx
 
 #nyamedia
-DOMAIN-SUFFIX,emby.bangumi.ca
+DOMAIN,emby.bangumi.ca
+DOMAIN-SUFFIX,.bangumi.ca
 
 #琉璃门
-DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org
+DOMAIN,emby.kongcheng666.dpdns.org
+DOMAIN-SUFFIX,.kongcheng666.dpdns.org
 
 #CC公益、Misty、nyamedia、琉璃门
 IP-CIDR,104.21.0.0/16
