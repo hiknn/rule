@@ -1,1 +1,24 @@
+# NAME：代理Emby
+# 更新时间：2025 年 7 月 12 日
 
+#SNTP Medis Lite
+DOMAIN-SUFFIX,lite.cn2gias.uk,代理Emby
+DOMAIN-SUFFIX,lite-v6.cn2gias.uk,代理Emby
+IP-CIDR,38.147.107.197/32,代理Emby
+
+#CC公益
+DOMAIN-SUFFIX,cc.embycc.link,代理Emby
+DOMAIN-SUFFIX,carryz.net,代理Emby
+
+#Misty
+DOMAIN-SUFFIX,misty.cx,代理Emby
+
+#nyamedia
+DOMAIN-SUFFIX,emby.bangumi.ca,代理Emby
+
+#琉璃门
+DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org,代理Emby
+
+
+#CC公益、Misty、nyamedia、琉璃门
+IP-CIDR,104.21.0.0/16,代理Emby
