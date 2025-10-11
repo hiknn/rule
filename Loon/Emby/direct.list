@@ -1,5 +1,5 @@
-# NAME： 直连Emby
-# 更新时间：2025 年 7 月 12 日
+# NAME： Emby
+# 更新时间：2025 年 10 月 11 日
 
 #飞跃彩虹
 DOMAIN-SUFFIX,ch.feiyue.lol
@@ -58,4 +58,28 @@ IP-CIDR,172.67.146.162/32
 DOMAIN-SUFFIX,emos.lol
 IP-CIDR,172.67.167.127/32
 IP-CIDR,104.21.91.64/32
+
+#SNTP Medis Lite
+DOMAIN-SUFFIX,lite.cn2gias.uk
+DOMAIN-SUFFIX,lite-v6.cn2gias.uk
+IP-CIDR,38.147.107.197/32
+
+#CC公益
+DOMAIN-SUFFIX,cc.embycc.link
+DOMAIN-SUFFIX,carryz.net
+
+#Misty
+DOMAIN-SUFFIX,misty.cx
+
+#nyamedia
+DOMAIN-SUFFIX,emby.bangumi.ca
+
+#琉璃门
+DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org
+
+#悦通
+DOMAIN-SUFFIX,emby.yue.to
+
+#CC公益、Misty、nyamedia、琉璃门
+IP-CIDR,104.21.0.0/16
 
