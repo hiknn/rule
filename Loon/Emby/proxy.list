@@ -19,6 +19,9 @@ DOMAIN-SUFFIX,emby.bangumi.ca
 #琉璃门
 DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org
 
+#悦通
+DOMAIN-SUFFIX,emby.yue.to
+
 
 #CC公益、Misty、nyamedia、琉璃门
 IP-CIDR,104.21.0.0/16
