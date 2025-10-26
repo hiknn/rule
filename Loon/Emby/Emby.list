@@ -73,12 +73,9 @@ DOMAIN-SUFFIX,misty.cx
 #nyamedia
 DOMAIN-SUFFIX,emby.bangumi.ca
 
-#琉璃门
-DOMAIN-SUFFIX,emby.kongcheng666.dpdns.org
+#电视台
+DOMAIN-SUFFIX,emby.191920.xyz
 
-#悦通
-DOMAIN-SUFFIX,emby.yue.to
-
-#CC公益、Misty、nyamedia、琉璃门
+#CC公益、Misty、nyamedia
 IP-CIDR,104.21.0.0/16
 
