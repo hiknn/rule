@@ -4,9 +4,6 @@
 #飞跃彩虹
 DOMAIN-SUFFIX,ch.feiyue.lol
 
-#NanflixUSA
-DOMAIN-SUFFIX,us.nanflix.net
-
 #SaturDay.Lite
 DOMAIN-SUFFIX,lite.saturdayvideo.top
 
@@ -14,13 +11,8 @@ DOMAIN-SUFFIX,lite.saturdayvideo.top
 DOMAIN-SUFFIX,emby.yamo.uk
 
 #非越媒体库
-#V4线路
 DOMAIN-SUFFIX,cdn.sfcj.org
-#V4/V6线路
 DOMAIN-SUFFIX,cf.sfcj.org
-
-#BBEMBY
-DOMAIN-SUFFIX,beebi.org
 
 #ZoxFree
 DOMAIN-SUFFIX,zoxfree.3767483.xyz
