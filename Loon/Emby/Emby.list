@@ -43,6 +43,10 @@ DOMAIN-SUFFIX,emby.191920.xyz
 #临境Lite
 DOMAIN-SUFFIX,lite.liminalnet.com
 
+#OkEmby
+DOMAIN-SUFFIX,link00.okemby.org
+DOMAIN-SUFFIX,link01.okemby.org
+
 #UHD
 DOMAIN-SUFFIX,v1.uhdnow.com
 
