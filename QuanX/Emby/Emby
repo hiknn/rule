@@ -49,3 +49,6 @@ DOMAIN-SUFFIX,link01.okemby.org,Emby
 
 #UHD
 DOMAIN-SUFFIX,v1.uhdnow.com,EMBY
+
+#HOHAI
+DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
