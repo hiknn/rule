@@ -55,3 +55,9 @@ DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
 
 #Embydada
 DOMAIN-SUFFIX,10520.xyz,EMBY
+
+#hkaemby
+DOMAIN-SUFFIX,hka-emby.aliz.work,EMBY
+
+#paul_电报服
+DOMAIN-SUFFIX,cf.imetyou.top,EMBY
