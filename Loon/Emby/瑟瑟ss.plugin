@@ -1,11 +1,12 @@
-#!name = 通杀视频解锁 (sssss)
-#!desc = 解锁金币/VIP视频链接捕获。捕获成功后会弹出通知，点击通知即可跳转播放。
+#!name = 视频解锁适配版
+#!desc = 适配 Loon。解决网页显示“格式不支持”的问题。请注意：必须点击弹出的通知跳转播放。
 #!author = 89996462
 #!icon = https://raw.githubusercontent.com/luestr/IconResource/master/AppIcon/Alphabet/S.png
 
 [Script]
-# 注意：这里将 QX 的 script-request-header 转换为 Loon 的 http-request
-http-request ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/sssss.js, requires-body=false, tag=视频链接捕获
+# 注意：这里必须指定 requires-body=true，尽管它是 request 阶段
+# 这样是为了让 Loon 能够完整接管该请求的上下文转换
+http-request ^https?:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/sssss.js, requires-body=true, tag=视频解锁
 
 [MITM]
 hostname = 120play.*.cn, h5play.*.com, long.*.cn, *.fipxor.cn, *.10play.zbzfwi.cn
