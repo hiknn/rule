@@ -1,12 +1,46 @@
-#!name = 视频解锁(Loon修正版)
-#!desc = 专门修复 p4.gv009.fun 等站点的捕获问题。如果网页报错但无通知，请检查此插件是否启用。
-#!author = 89996462
-#!icon = https://raw.githubusercontent.com/luestr/IconResource/master/AppIcon/Alphabet/S.png
+[MITM]
+hostname = 120play.*.cn, h5play.*.com, long.*.cn, *.fipxor.cn, *.10play.zbzfwi.cn, *.rgjughj.com, *.gv009.fun, *.woznungkb.me, *.kmxtuasi.com, *.eiimfvka.com, *.gbuiqpc.com, *.sddujex.com, *.jdgrutiw.net, *.gwwofejb.com, *.xbclub.co, *.awjqapp.com, *.ofygmxlo.com, *.odehqfpw.com, *.ztaqgtu.com, *.cegbkczv.net, *.etaxhjvt.com, *.bwsdfow.net, *.zbzfwi.cn
 
 [Script]
-# 修改了正则表达式，确保能匹配 p4.gv009.fun 下的 m3u8 请求
-http-request ^https?:\/\/.*\/.*\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/sssss.js, requires-body=false, tag=视频解锁核心
+# 视频解锁脚本
+http-request ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-body=/*
+ * 功能：解锁多个网站的视频（通杀）
+ * 适用：Loon
+ * 说明：拦截特定格式的M3U8请求，修改请求头并发送通知
+ */
 
-[MITM]
-# 必须包含截图中的域名
-hostname = p4.gv009.fun, 120play.*.cn, h5play.*.com, long.*.cn, *.fipxor.cn, *.10play.zbzfwi.cn, *.jmcruygi.com, *.sddujex.com
+// 获取请求信息
+let $request = $httpClient;
+
+// 检查请求头中是否存在User-Agent
+let isUnlock = $request.headers['User-Agent'] ? true : false;
+
+// 如果请求头中存在User-Agent，则解锁
+if (isUnlock) {
+    // 生成跳转链接：将域名替换为h5play.com，并去掉.m3u8后缀
+    let playURL = $request.url.replace(/\/\/[^/]*\..*\.cn\//, '//h5play.com/').replace(/\.m3u8$/, "");
+
+    // 修改请求头：设置自定义字段用于解锁
+    $request.headers['X-Unlock'] = 'true';
+
+    // 发送通知（使用Loon的通知方式）
+    $notification.post(
+        "解锁成功",
+        "点击此通知可跳转观看",
+        "",
+        {
+            "openUrl": playURL
+        }
+    );
+
+    // 记录日志
+    console.log("通杀Crack~");
+    console.log("原始URL: " + $request.url);
+    console.log("跳转URL: " + playURL);
+} else {
+    console.log("请求头中缺少User-Agent，不执行解锁");
+}
+
+// 返回修改后的请求头，使请求继续
+$done($request);
+*/
