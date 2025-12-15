@@ -9,7 +9,7 @@
 [Script]
 # 核心脚本：拦截 m3u8 请求并触发通知
 # 匹配规则放宽，以适配更多后缀（.com, .cc, .me等）
-http-request ^https?:\/\/.*\/.*\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 script-path=video_crack.js, tag=视频链接捕获, requires-body=false
+http-request ^https?:\/\/.*\/.*\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/sssss.js, tag=视频链接捕获, requires-body=false
 
 [MITM]
 # 必须解密这些域名才能获取请求头
