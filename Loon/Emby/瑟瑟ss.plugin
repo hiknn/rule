@@ -1,22 +1,9 @@
-[Name]
-自定义重定向插件
-
-[Desc]
-针对特定 URL 进行处理并触发 Loon 通知
-
-[Rule]
-# 如果脚本需要拦截特定域名，请在这里添加
-# DOMAIN-SUFFIX, example.com, PROXY
+#!name=弹窗重定向修复
+#!desc=修复混淆脚本在Loon不弹窗的问题
+#!author=Gemini
 
 [Script]
-# 假设你想在访问某个 API 时触发此脚本
-# type: 脚本类型 (http-request 或 http-response)
-# pattern: 匹配的 URL 正则表达式
-# requires-body: 是否需要获取 body (true/false)
-# timeout: 超时时间
-
-http-request ^https?:\/\/.*play.* script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js, requires-body=true, tag=重定向脚本
+http-request ^https?:\/\/.*play.* script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js, tag=解析脚本, requires-body=true
 
 [MITM]
-# 必须加上对应的域名才能解密 HTTPS 流量
-hostname = 120play.*.cn,h5play.*.com,long.*.cn,*.fipxor.cn,*.10play.zbzfwi.cn
+hostname = *play*
