@@ -62,7 +62,12 @@ DOMAIN-SUFFIX,hka-emby.aliz.work
 #paul_电报服
 DOMAIN-SUFFIX,cf.imetyou.top
 
-#叶子
+#叶子网盘服
 DOMAIN-SUFFIX,gm.yezi.my
 
-
+#叶子硬盘服
+DOMAIN-SUFFIX,bai.yezi.my
+DOMAIN-SUFFIX,bai1.yezi.my
+DOMAIN-SUFFIX,bai2.yezi.my
+DOMAIN-SUFFIX,bai3.yezi.my
+DOMAIN-SUFFIX,bai6.yezi.my
