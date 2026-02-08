@@ -7,15 +7,11 @@ DOMAIN-SUFFIX,ch.feiyue.lol,Emby
 #SaturDay.Lite
 DOMAIN-SUFFIX,lite.saturdayvideo.top,Emby
 
-#Yomo
-DOMAIN-SUFFIX,emby.yamo.uk,Emby
 
 #非越媒体库
 DOMAIN-SUFFIX,cdn.sfcj.org,Emby
 DOMAIN-SUFFIX,cf.sfcj.org,Emby
 
-#ZoxFree
-DOMAIN-SUFFIX,zoxfree.3767483.xyz,Emby
 
 #shrek
 DOMAIN-SUFFIX,public.shrekmedia.org,Emby
@@ -31,11 +27,11 @@ DOMAIN-SUFFIX,lite-v6.cn2gias.uk,Emby
 DOMAIN-SUFFIX,cc.embycc.link,Emby
 DOMAIN-SUFFIX,carryz.net,Emby
 
-#Misty
-DOMAIN-SUFFIX,misty.cx,Emby
 
 #nyamedia
 DOMAIN-SUFFIX,emby.bangumi.ca,Emby
+DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca,Emby
+DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca,Emby
 
 #电视台DOMAIN-SUFFIX,embygy.ichinosekotomi.com,Emby
 
@@ -45,9 +41,6 @@ DOMAIN-SUFFIX,lite.liminalnet.com,Emby
 #OkEmby
 DOMAIN-SUFFIX,link00.okemby.org,Emby
 DOMAIN-SUFFIX,link01.okemby.org,Emby
-
-#UHD
-DOMAIN-SUFFIX,v1.uhdnow.com,EMBY
 
 #HOHAI
 DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
