@@ -7,15 +7,10 @@ DOMAIN-SUFFIX,ch.feiyue.lol
 #SaturDay.Lite
 DOMAIN-SUFFIX,lite.saturdayvideo.top
 
-#Yomo
-DOMAIN-SUFFIX,emby.yamo.uk
-
 #非越媒体库
 DOMAIN-SUFFIX,cdn.sfcj.org
 DOMAIN-SUFFIX,cf.sfcj.org
 
-#ZoxFree
-DOMAIN-SUFFIX,zoxfree.3767483.xyz
 
 #shrek
 DOMAIN-SUFFIX,public.shrekmedia.org
@@ -36,6 +31,8 @@ DOMAIN-SUFFIX,misty.cx
 
 #nyamedia
 DOMAIN-SUFFIX,emby.bangumi.ca
+DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca
+DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca
 
 #电视台
 DOMAIN-SUFFIX,embygy.ichinosekotomi.com
@@ -59,8 +56,6 @@ DOMAIN-SUFFIX,101514.xyz
 #hkaemby
 DOMAIN-SUFFIX,hka-emby.aliz.work
 
-#paul_电报服
-DOMAIN-SUFFIX,cf.imetyou.top
 
 #叶子网盘服
 DOMAIN-SUFFIX,gm.yezi.my
