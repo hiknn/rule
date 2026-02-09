@@ -58,4 +58,9 @@ DOMAIN-SUFFIX,cf.imetyou.top,EMBY
 #叶子网盘服
 DOMAIN-SUFFIX,wp.lyezi.cc,EMBY
 
+#mirai
+DOMAIN-SUFFIX,mi.miraiemby.com,EMBY
+DOMAIN-SUFFIX,mi2.miraiemby.com,EMBY
+DOMAIN-SUFFIX,mi3.miraiemby.com,EMBY
+
 
