@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca
 DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca
 
 #电视台
-DOMAIN-SUFFIX,embygy.ichinosekotomi.com
+DOMAIN-SUFFIX,emby.ichinosekotomi.com
 
 #临境Lite
 DOMAIN-SUFFIX,lite.liminalnet.com
