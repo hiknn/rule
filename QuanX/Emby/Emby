@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,emby.bangumi.ca,Emby
 DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca,Emby
 DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca,Emby
 
-#电视台DOMAIN-SUFFIX,embygy.ichinosekotomi.com,Emby
+#电视台DOMAIN-SUFFIX,emby.ichinosekotomi.com,Emby
 
 #临境Lite
 DOMAIN-SUFFIX,lite.liminalnet.com,Emby
