@@ -66,3 +66,16 @@ DOMAIN-SUFFIX,lyezi.cc,EMBY
 #DOMAIN-SUFFIX,mi2.miraiemby.com,EMBY
 #DOMAIN-SUFFIX,mi3.miraiemby.com,EMBY
 DOMAIN-SUFFIX,miraiemby.com,EMBY
+
+#roc
+#DOMAIN-SUFFIX,emby.rochub.xyz,EMBY
+#DOMAIN-SUFFIX,emby.cf.rochub.xyz,EMBY
+DOMAIN-SUFFIX,rochub.xyz,EMBY
+
+#月饼
+#DOMAIN-SUFFIX,emby.my,EMBY
+#DOMAIN-SUFFIX,a.emby.my,EMBY
+DOMAIN-SUFFIX,emby.my,EMBY
+
+#gousheng
+DOMAIN-SUFFIX,gousen.cc.cd,EMBY
