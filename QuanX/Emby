@@ -52,7 +52,9 @@ DOMAIN-SUFFIX,liminalnet.com,Emby
 DOMAIN-SUFFIX,okemby.org,Emby
 
 #HOHAI
-DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
+#DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
+#DOMAIN-SUFFIX,emby-npo.hohai.eu.org,EMBY
+DOMAIN-SUFFIX,hohai.eu.org,EMBY
 
 #Embydada
 DOMAIN-SUFFIX,101514.xyz,EMBY
