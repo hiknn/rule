@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,lyezi.cc,EMBY
 #DOMAIN-SUFFIX,mi2.miraiemby.com,EMBY
 #DOMAIN-SUFFIX,mi3.miraiemby.com,EMBY
 DOMAIN-SUFFIX,miraiemby.com,EMBY
+DOMAIN-SUFFIX,jiedaibao.gs,EMBY
 
 #roc
 #DOMAIN-SUFFIX,emby.rochub.xyz,EMBY
@@ -84,5 +85,7 @@ DOMAIN-SUFFIX,emby.my,EMBY
 DOMAIN-SUFFIX,gousen.cc.cd,EMBY
 
 #Lily
-#DOMAIN-SUFFIX,free.lilyemby.com,EMBY
+#DOMAIN-SUFFIX,www.lilyemby.com,EMBY
+#DOMAIN-SUFFIX,cdn.lilyemby.com,EMBY
+#DOMAIN-SUFFIX,aliyun.lilyemby.com,EMBY
 DOMAIN-SUFFIX,lilyemby.com,EMBY
