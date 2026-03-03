@@ -86,6 +86,6 @@ DOMAIN-SUFFIX,gousen.cc.cd,EMBY
 
 #Lily
 DOMAIN-SUFFIX,www.lilyemby.com,EMBY
-#DOMAIN-SUFFIX,cdn.lilyemby.com,EMBY
+DOMAIN-SUFFIX,stream.lilyemby.cc,EMBY
 DOMAIN-SUFFIX,aliyun.lilyemby.com,EMBY
 
