@@ -34,19 +34,6 @@ DOMAIN-SUFFIX,cc.embycc.link,Emby
 DOMAIN-SUFFIX,cc.coemn.com,Emby
 
 
-#nyamedia
-DOMAIN-SUFFIX,emby.bangumi.ca,Emby
-#DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca,Emby
-#DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca,Emby
-
-#电视台
-#DOMAIN-SUFFIX,emby.ichinosekotomi.com,Emby
-DOMAIN-SUFFIX,ichinosekotomi.com,Emby
-
-#临境Lite
-#DOMAIN-SUFFIX,lite.liminalnet.com,Emby
-DOMAIN-SUFFIX,liminalnet.com,Emby
-
 #OkEmby
 #DOMAIN-SUFFIX,link00.okemby.org,Emby
 #DOMAIN-SUFFIX,link01.okemby.org,Emby
@@ -57,9 +44,6 @@ DOMAIN-SUFFIX,okemby.org,Emby
 #DOMAIN-SUFFIX,emby-npo.hohai.eu.org,EMBY
 DOMAIN-SUFFIX,hohai.eu.org,EMBY
 
-#Embydada
-DOMAIN-SUFFIX,101514.xyz,EMBY
-
 #叶子网盘服
 #DOMAIN-SUFFIX,wp.lyezi.cc,EMBY
 DOMAIN-SUFFIX,lyezi.cc,EMBY
@@ -67,7 +51,6 @@ DOMAIN-SUFFIX,lyezi.cc,EMBY
 #mirai
 #DOMAIN-SUFFIX,mi.miraiemby.com,EMBY
 #DOMAIN-SUFFIX,mi2.miraiemby.com,EMBY
-#DOMAIN-SUFFIX,mi3.miraiemby.com,EMBY
 DOMAIN-SUFFIX,miraiemby.com,EMBY
 DOMAIN-SUFFIX,jiedaibao.gs,EMBY
 
@@ -88,4 +71,12 @@ DOMAIN-SUFFIX,gousen.cc.cd,EMBY
 DOMAIN-SUFFIX,www.lilyemby.com,EMBY
 DOMAIN-SUFFIX,stream.lilyemby.cc,EMBY
 DOMAIN-SUFFIX,aliyun.lilyemby.com,EMBY
+
+#鸡窝
+#DOMAIN-SUFFIX,emby.sadchicktv.com,EMBY
+DOMAIN-SUFFIX,sadchicktv.com,EMBY
+
+#youmo
+#DOMAIN-SUFFIX,emby.younoyes.com,EMBY
+DOMAIN-SUFFIX,younoyes.com,EMBY
 
