@@ -63,8 +63,9 @@ DOMAIN-SUFFIX,emby.my,EMBY
 #鸡窝
 #DOMAIN-SUFFIX,emby.sadchicktv.com,EMBY
 #DOMAIN-SUFFIX,emby2.sadchicktv.com,EMBY
+#DOMAIN-SUFFIX,stream-1.sadchicktv.com,EMBY
 DOMAIN-SUFFIX,sadchicktv.com,EMBY
-DOMAIN-SUFFIX,sadchicktv.com,EMBY
+
 
 #mirai
 #DOMAIN-SUFFIX,mi.miraiemby.com,EMBY
