@@ -54,33 +54,23 @@ DOMAIN-SUFFIX,hohai.eu.org,EMBY
 #DOMAIN-SUFFIX,wp.lyezi.cc,EMBY
 DOMAIN-SUFFIX,lyezi.cc,EMBY
 
-#mirai
-#DOMAIN-SUFFIX,mi.miraiemby.com,EMBY
-#DOMAIN-SUFFIX,mi2.miraiemby.com,EMBY
-DOMAIN-SUFFIX,miraiemby.com,EMBY
-DOMAIN-SUFFIX,jiedaibao.gs,EMBY
-
-#roc
-#DOMAIN-SUFFIX,emby.rochub.xyz,EMBY
-#DOMAIN-SUFFIX,emby.cf.rochub.xyz,EMBY
-DOMAIN-SUFFIX,rochub.xyz,EMBY
 
 #月饼
 #DOMAIN-SUFFIX,emby.my,EMBY
 #DOMAIN-SUFFIX,a.emby.my,EMBY
 DOMAIN-SUFFIX,emby.my,EMBY
 
-#gousheng
-DOMAIN-SUFFIX,gousen.cc.cd,EMBY
-
-#Lily
-DOMAIN-SUFFIX,www.lilyemby.com,EMBY
-DOMAIN-SUFFIX,stream.lilyemby.cc,EMBY
-DOMAIN-SUFFIX,aliyun.lilyemby.com,EMBY
-
 #鸡窝
 #DOMAIN-SUFFIX,emby.sadchicktv.com,EMBY
+#DOMAIN-SUFFIX,emby2.sadchicktv.com,EMBY
 DOMAIN-SUFFIX,sadchicktv.com,EMBY
+DOMAIN-SUFFIX,sadchicktv.com,EMBY
+
+#mirai
+#DOMAIN-SUFFIX,mi.miraiemby.com,EMBY
+#DOMAIN-SUFFIX,mi2.miraiemby.com,EMBY
+DOMAIN-SUFFIX,miraiemby.com,EMBY
+DOMAIN-SUFFIX,jiedaibao.gs,EMBY
 
 #youmo
 #DOMAIN-SUFFIX,emby.younoyes.com,EMBY
