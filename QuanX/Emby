@@ -5,7 +5,7 @@
 #DOMAIN-SUFFIX,ch.feiyue.lol,Emby
 #DOMAIN-SUFFIX,cflocal.xxlb.net,Emby
 DOMAIN-SUFFIX,feiyue.lol,Emby
-#DOMAIN-SUFFIX,xxlb.net,Emby
+DOMAIN-SUFFIX,xxlb.net,Emby
 
 #SaturDay.Lite
 #DOMAIN-SUFFIX,lite.saturdayvideo.top,Emby
