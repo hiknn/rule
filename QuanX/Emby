@@ -77,3 +77,6 @@ DOMAIN-SUFFIX,jiedaibao.gs,EMBY
 #DOMAIN-SUFFIX,emby.younoyes.com,EMBY
 DOMAIN-SUFFIX,younoyes.com,EMBY
 
+#稳健
+#DOMAIN-SUFFIX,115.wenjian.de,Emby
+DOMAIN-SUFFIX,wenjian.de,Emby
