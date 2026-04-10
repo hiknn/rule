@@ -80,3 +80,9 @@ DOMAIN-SUFFIX,younoyes.com,EMBY
 #稳健
 #DOMAIN-SUFFIX,115.wenjian.de,Emby
 DOMAIN-SUFFIX,wenjian.de,Emby
+
+#拾光
+#DOMAIN-SUFFIX,ey.lightting.net,Emby
+#DOMAIN-SUFFIX,cdn.lightting.top,Emby
+DOMAIN-SUFFIX,lightting.net,Emby
+DOMAIN-SUFFIX,lightting.top,Emby
