@@ -87,3 +87,8 @@ DOMAIN-SUFFIX,wenjian.de,Emby
 #DOMAIN-SUFFIX,cdn.lightting.top,Emby
 DOMAIN-SUFFIX,lightting.net,Emby
 DOMAIN-SUFFIX,lightting.top,Emby
+
+#xyz
+DOMAIN-SUFFIXh,gy.emby.yun,EMBY
+DOMAIN-SUFFIX,emby.yun,EMBY
+
