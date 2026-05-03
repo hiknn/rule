@@ -87,12 +87,14 @@ DOMAIN-SUFFIX,1653.us.ci,Emby
 
 #xyz
 #DOMAIN-SUFFIX,gy.emby.yun,EMBY
+#DOMAIN-SUFFIX,gyb.emby.yun,EMBY
 DOMAIN-SUFFIX,emby.yun,EMBY
 
 #冰镇西瓜
 #DOMAIN-SUFFIX,play.chilledmelon.com,EMBY
+#DOMAIN-SUFFIX,cf.xgua.de,EMBY
 DOMAIN-SUFFIX,chilledmelon.com,EMBY
-DOMAIN-SUFFIX,cf.xgua.de,EMBY
+DOMAIN-SUFFIX,xgua.de,EMBY
 
 #lily
 DOMAIN-SUFFIX, lilyya.top, Emby
@@ -101,3 +103,12 @@ DOMAIN-SUFFIX, lilyemby.com, Emby
 #见手青
 #DOMAIN-SUFFIX, a.mooguu.top, Emby
 DOMAIN-SUFFIX, mooguu.top, Emby
+
+#稳健
+#DOMAIN-SUFFIX,m.wenjian.de,EMBY
+DOMAIN-SUFFIX,wenjian.de,EMBY
+
+#不吃香菜
+#DOMAIN-SUFFIX,vip.iemby.cn,EMBY
+#DOMAIN-SUFFIX,v6.iemby.cn,EMBY
+DOMAIN-SUFFIX,iemby.cn,EMBY
