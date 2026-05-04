@@ -2,10 +2,8 @@
 # 更新时间：2026 年 02 月 10 日
 
 #飞跃彩虹
-#DOMAIN-SUFFIX,ch.feiyue.lol,Emby
-#DOMAIN-SUFFIX,cflocal.xxlb.net,Emby
+#DOMAIN-SUFFIX,fych.feiyue.lol,Emby
 DOMAIN-SUFFIX,feiyue.lol,Emby
-DOMAIN-SUFFIX,xxlb.net,Emby
 
 #SaturDay.Lite
 #DOMAIN-SUFFIX,lite.saturdayent.top,Emby
