@@ -98,18 +98,16 @@ DOMAIN-SUFFIX,xgua.de,EMBY
 DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, lilyemby.com, Emby
 DOMAIN-SUFFIX, steinsgate.eu.org, Emby
-DOMAIN-SUFFIX, mile.us.ci, Emby
+DOMAIN-SUFFIX, auto.mile.us.ci, Emby
+DOMAIN-SUFFIX, emby.726748.xyz, Emby
 
 
 #见手青
-#DOMAIN-SUFFIX, a.mooguu.top, Emby
 DOMAIN-SUFFIX, mooguu.top, Emby
 
 #稳健
-#DOMAIN-SUFFIX,m.wenjian.de,EMBY
 DOMAIN-SUFFIX,wenjian.de,EMBY
 
-#不吃香菜
-#DOMAIN-SUFFIX,vip.iemby.cn,EMBY
-#DOMAIN-SUFFIX,v6.iemby.cn,EMBY
-DOMAIN-SUFFIX,iemby.cn,EMBY
+#屿森
+DOMAIN-SUFFIX,yusen.us.ci,EMBY
+DOMAIN-SUFFIX,ccwu.cc,EMBY
