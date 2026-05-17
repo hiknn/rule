@@ -87,6 +87,9 @@ DOMAIN-SUFFIX,xgua.de,EMBY
 #lily
 DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, lilyemby.com, Emby
+# 官方反代
+DOMAIN-SUFFIX, nginxlily.cyou, Emby
+# 群友反代
 DOMAIN-SUFFIX, steinsgate.eu.org, Emby
 DOMAIN-SUFFIX, auto.mile.us.ci, Emby
 DOMAIN-SUFFIX, emby.726748.xyz, Emby
