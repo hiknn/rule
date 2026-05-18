@@ -71,7 +71,10 @@ DOMAIN-SUFFIX,younoyes.com,EMBY
 #xyz
 #DOMAIN-SUFFIX,gy.emby.yun,EMBY
 #DOMAIN-SUFFIX,gyb.emby.yun,EMBY
+#DOMAIN-SUFFIX,gy.fxtbjmqslr.cn,Emby
+#DOMAIN-SUFFIX,gyb.fxtbjmqslr.cn,Emby
 DOMAIN-SUFFIX,emby.yun,EMBY
+DOMAIN-SUFFIX,fxtbjmqslr.cn,Emby
 
 #冰镇西瓜
 #DOMAIN-SUFFIX,play.chilledmelon.com,EMBY
