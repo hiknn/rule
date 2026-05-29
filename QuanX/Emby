@@ -71,10 +71,7 @@ DOMAIN-SUFFIX,younoyes.com,EMBY
 #xyz
 #DOMAIN-SUFFIX,gy.emby.yun,EMBY
 #DOMAIN-SUFFIX,gyb.emby.yun,EMBY
-#DOMAIN-SUFFIX,gy.fxtbjmqslr.cn,Emby
-#DOMAIN-SUFFIX,gyb.fxtbjmqslr.cn,Emby
 DOMAIN-SUFFIX,emby.yun,EMBY
-DOMAIN-SUFFIX,fxtbjmqslr.cn,Emby
 
 #冰镇西瓜
 #DOMAIN-SUFFIX,play.chilledmelon.com,EMBY
@@ -86,7 +83,7 @@ DOMAIN-SUFFIX,xgua.de,EMBY
 DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, lilyemby.com, Emby
 # 官方反代
-DOMAIN-SUFFIX, nginxlily.cyou, Emby
+DOMAIN-SUFFIX, lilyemby.cc, Emby
 # 群友反代
 DOMAIN-SUFFIX, steinsgate.eu.org, Emby
 DOMAIN-SUFFIX, auto.mile.us.ci, Emby
