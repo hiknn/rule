@@ -94,8 +94,10 @@ DOMAIN-SUFFIX, emby.726748.xyz, Emby
 #DOMAIN-SUFFIX, a.mooguu.top, Emby
 DOMAIN-SUFFIX, mooguu.top, Emby
 
-#稳健
-#DOMAIN-SUFFIX, m.wenjian.de, Emby
+#稳健115
+#DOMAIN-SUFFIX, cdn.wenjian.de, Emby
+#DOMAIN-SUFFIX, 1.cdn.wenjian.de, Emby
+#DOMAIN-SUFFIX, tv.wenjian.de, Emby
 DOMAIN-SUFFIX, wenjian.de,EMBY
 
 #屿森
