@@ -75,9 +75,9 @@ DOMAIN-SUFFIX,emby.yun,EMBY
 
 #冰镇西瓜
 #DOMAIN-SUFFIX,play.chilledmelon.com,EMBY
-#DOMAIN-SUFFIX,cf.xgua.de,EMBY
+#DOMAIN-SUFFIX,cf.goglobe.pro,EMBY
 DOMAIN-SUFFIX,chilledmelon.com,EMBY
-DOMAIN-SUFFIX,xgua.de,EMBY
+DOMAIN-SUFFIX,goglobe.pro,EMBY
 
 #lily
 DOMAIN-SUFFIX, lilyya.top, Emby
