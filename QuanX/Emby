@@ -35,6 +35,8 @@ DOMAIN-SUFFIX,hohai.eu.org,EMBY
 #DOMAIN-SUFFIX,emby.my,EMBY
 #DOMAIN-SUFFIX,a.emby.my,EMBY
 DOMAIN-SUFFIX,emby.my,EMBY
+#后端推流
+DOMAIN-SUFFIX,apple-cdn.net, Emby
 
 #鸡窝
 #DOMAIN-SUFFIX,emby.sadchicktv.com,EMBY
