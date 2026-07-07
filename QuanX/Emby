@@ -29,7 +29,10 @@ DOMAIN-SUFFIX,cn2gias.uk,Emby
 #HOHAI
 #DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
 #DOMAIN-SUFFIX,emby-npo.hohai.eu.org,EMBY
+#后端推流
+#DOMAIN-SUFFIX,115.hohai.eu.org, Emby
 DOMAIN-SUFFIX,hohai.eu.org,EMBY
+
 
 #月饼
 #DOMAIN-SUFFIX,emby.my,EMBY
