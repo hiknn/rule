@@ -26,29 +26,10 @@ DOMAIN-SUFFIX,emos.200038.xyz,Emby
 #DOMAIN-SUFFIX,lite-v6.cn2gias.uk,Emby
 DOMAIN-SUFFIX,cn2gias.uk,Emby
 
-#CC公益
-#DOMAIN-SUFFIX,cc.mnyvc.xyz,Emby
-#DOMAIN-SUFFIX,cc.coemn.com,Emby
-#DOMAIN-SUFFIX,lt1.carryz.net,Emby
-DOMAIN-SUFFIX,mnyvc.xyz,Emby
-DOMAIN-SUFFIX,coemn.com,Emby
-DOMAIN-SUFFIX,carryz.net,Emby
-
-
-#OkEmby
-#DOMAIN-SUFFIX,link00.okemby.org,Emby
-#DOMAIN-SUFFIX,link01.okemby.org,Emby
-DOMAIN-SUFFIX,okemby.org,Emby
-
 #HOHAI
 #DOMAIN-SUFFIX,emby.hohai.eu.org,EMBY
 #DOMAIN-SUFFIX,emby-npo.hohai.eu.org,EMBY
 DOMAIN-SUFFIX,hohai.eu.org,EMBY
-
-#叶子网盘服
-#DOMAIN-SUFFIX,wp.lyezi.cc,EMBY
-DOMAIN-SUFFIX,lyezi.cc,EMBY
-
 
 #月饼
 #DOMAIN-SUFFIX,emby.my,EMBY
@@ -80,8 +61,9 @@ DOMAIN-SUFFIX,chilledmelon.com,EMBY
 DOMAIN-SUFFIX,goglobe.pro,EMBY
 
 #lily
-DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, lilyemby.com, Emby
+#后端推流
+DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, fastboostcdn.com, Emby
 # 官方反代
 DOMAIN-SUFFIX, lilyemby.cc, Emby
