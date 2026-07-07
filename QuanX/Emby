@@ -55,7 +55,8 @@ DOMAIN-SUFFIX,younoyes.com,EMBY
 DOMAIN-SUFFIX,emby.yun,EMBY
 
 #冰镇西瓜
-#DOMAIN-SUFFIX,play.chilledmelon.com,EMBY
+#DOMAIN-SUFFIX,v.chilledmelon.com,EMBY
+#DOMAIN-SUFFIX,rn.chilledmelon.com,EMBY
 #DOMAIN-SUFFIX,cf.goglobe.pro,EMBY
 DOMAIN-SUFFIX,chilledmelon.com,EMBY
 DOMAIN-SUFFIX,goglobe.pro,EMBY
