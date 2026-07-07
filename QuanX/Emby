@@ -82,8 +82,9 @@ DOMAIN-SUFFIX,goglobe.pro,EMBY
 #lily
 DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, lilyemby.com, Emby
+DOMAIN-SUFFIX, fastboostcdn.com, Emby
 # 官方反代
-DOMAIN-SUFFIX, lilyemby.cc, Emby  x1.lilyemby.cc
+DOMAIN-SUFFIX, lilyemby.cc, Emby
 # 群友反代
 DOMAIN-SUFFIX, steinsgate.eu.org, Emby
 DOMAIN-SUFFIX, auto.mile.us.ci, Emby
