@@ -10,11 +10,6 @@ DOMAIN-SUFFIX,feiyue.lol,Emby
 DOMAIN-SUFFIX,saturdayent.top,Emby
 
 
-#非越媒体库
-#DOMAIN-SUFFIX,cdn.sfcj.org,Emby
-#DOMAIN-SUFFIX,cf.sfcj.org,Emby
-DOMAIN-SUFFIX,sfcj.org,Emby
-
 #emos
 DOMAIN-SUFFIX,emos.best,Emby
 DOMAIN-SUFFIX,clun.top,Emby
@@ -34,12 +29,6 @@ DOMAIN-SUFFIX,cn2gias.uk,Emby
 DOMAIN-SUFFIX,hohai.eu.org,EMBY
 
 
-#月饼
-#DOMAIN-SUFFIX,emby.my,EMBY
-#DOMAIN-SUFFIX,a.emby.my,EMBY
-DOMAIN-SUFFIX,emby.my,EMBY
-#后端推流
-DOMAIN-SUFFIX,apple-cdn.net, Emby
 
 #鸡窝
 #DOMAIN-SUFFIX,emby.sadchicktv.com,EMBY
@@ -54,17 +43,6 @@ DOMAIN-SUFFIX,sbz.mac89.com,EMBY
 #DOMAIN-SUFFIX,emby.younoyes.com,EMBY
 DOMAIN-SUFFIX,younoyes.com,EMBY
 
-#xyz
-#DOMAIN-SUFFIX,gy.emby.yun,EMBY
-#DOMAIN-SUFFIX,gyb.emby.yun,EMBY
-DOMAIN-SUFFIX,emby.yun,EMBY
-
-#冰镇西瓜
-#DOMAIN-SUFFIX,v.chilledmelon.com,EMBY
-#DOMAIN-SUFFIX,rn.chilledmelon.com,EMBY
-#DOMAIN-SUFFIX,cf.goglobe.pro,EMBY
-DOMAIN-SUFFIX,chilledmelon.com,EMBY
-DOMAIN-SUFFIX,goglobe.pro,EMBY
 
 #lily
 DOMAIN-SUFFIX, lilyemby.com, Emby
@@ -73,11 +51,6 @@ DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, fastboostcdn.com, Emby
 DOMAIN-SUFFIX, lilyemby.app, Emby
 
-
-
-#见手青
-#DOMAIN-SUFFIX, a.mooguu.top, Emby
-DOMAIN-SUFFIX, mooguu.top, Emby
 
 #稳健115
 #DOMAIN-SUFFIX, cdn.wenjian.de, Emby
