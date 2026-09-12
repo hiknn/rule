@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,younoyes.com,EMBY
 
 #lily
 DOMAIN-SUFFIX, lilyemby.com, Emby
+DOMAIN-SUFFIX, lilyemby.cc, Emby
 #后端推流
 DOMAIN-SUFFIX, lilyya.top, Emby
 DOMAIN-SUFFIX, fastboostcdn.com, Emby
