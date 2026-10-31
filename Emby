@@ -1,0 +1,61 @@
+# NAME： Emby
+# 更新时间：2026 年 10 月  31 日
+
+#飞跃彩虹
+#DOMAIN-SUFFIX,fych.feiyue.lol
+DOMAIN-SUFFIX,feiyue.lol
+
+#SaturDay.Lite
+#DOMAIN-SUFFIX,lite.saturdayent.top
+DOMAIN-SUFFIX,saturdayent.top
+
+
+#emos
+DOMAIN-SUFFIX,emos.best
+DOMAIN-SUFFIX,clun.top
+DOMAIN-SUFFIX,emos.club
+DOMAIN-SUFFIX,emos.200038.xyz
+DOMAIN-SUFFIX,emos.liuer.linkpc.net
+
+
+#SNTP Medis Lite
+#DOMAIN-SUFFIX,lite.cn2gias.uk
+#DOMAIN-SUFFIX,lite-v6.cn2gias.uk
+DOMAIN-SUFFIX,cn2gias.uk
+
+#HOHAI
+#DOMAIN-SUFFIX,emby.hohai.eu.org
+#DOMAIN-SUFFIX,emby-npo.hohai.eu.org
+#后端推流
+#DOMAIN-SUFFIX,115.hohai.eu.org
+DOMAIN-SUFFIX,hohai.eu.org
+
+
+
+#鸡窝
+#DOMAIN-SUFFIX,emby.sadchicktv.com
+# 后端推流
+#DOMAIN-SUFFIX,stream-1.sadchicktv.com
+#DOMAIN-SUFFIX,sbz.mac89.com
+DOMAIN-SUFFIX,sadchicktv.com
+DOMAIN-SUFFIX,sbz.mac89.com
+
+#youmo
+#DOMAIN-SUFFIX,emby.younoyes.com
+DOMAIN-SUFFIX,younoyes.com
+
+
+#lily
+DOMAIN-SUFFIX, lilyemby.com
+DOMAIN-SUFFIX, lilyemby.cc
+#后端推流
+DOMAIN-SUFFIX, lilyya.top
+DOMAIN-SUFFIX, fastboostcdn.com
+DOMAIN-SUFFIX, lilyemby.app
+
+
+#稳健115
+#DOMAIN-SUFFIX, cdn.wenjian.de
+#DOMAIN-SUFFIX, 1.cdn.wenjian.de
+#DOMAIN-SUFFIX, tv.wenjian.de
+DOMAIN-SUFFIX, wenjian.de
