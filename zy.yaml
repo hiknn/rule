@@ -1,0 +1,215 @@
+
+# ==================== 锚点配置 ====================
+# 代理提供者模板 - 订阅源基础配置
+BaseProvider: &BaseProvider {type: http, interval: 86400, proxy: DIRECT, health-check: {enable: true, url: 'https://www.google.com/generate_204', interval: 300}, filter: '^(?!.*(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))'}
+ProxyProvider: &ProxyProvider {type: http, interval: 86400, proxy: 香港自动, health-check: {enable: true, url: 'https://www.google.com/generate_204', interval: 300}, filter: '^(?!.*(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))'}
+
+# 策略组类型模板 - 定义不同的策略组基础配置
+BaseUT: &BaseUT {type: url-test, interval: 600, lazy: true, url: 'https://www.google.com/generate_204'}
+
+
+# 节点筛选正则表达式 - 基于地理位置和关键词过滤
+FilterHK: &FilterHK '^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2|5x)).*$'
+FilterSG: &FilterSG '^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2|5x)).*$'
+FilterJP: &FilterJP '^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(排除1|排除2|5x)).*$'
+FilterKR: &FilterKR '^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2|5x)).*$'
+FilterUS: &FilterUS '^(?=.*(?i)(美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(排除1|排除2|5x)).*$'
+FilterTW: &FilterTW '^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2|5x)).*$'
+
+
+# 策略组代理列表模板 - 预定义的代理节点优先级排序
+SelectAI: &SelectAI   {type: select, proxies: [台湾自动, 日本自动, 狮城自动, 韩国自动, 美国自动]}
+SelectOne: &SelectOne {type: select, proxies: [DIRECT, 香港自动, 台湾自动, 日本自动, 狮城自动, 韩国自动, 美国自动]}
+SelectFollowGlobal: &SelectFollowGlobal {type: select, proxies: [DIRECT, 全球代理, 香港自动, 台湾自动, 日本自动, 狮城自动, 韩国自动, 美国自动]}
+
+# ==================== 代理提供者 ====================
+proxy-providers:
+
+  悦通: {<<: *BaseProvider, url: 'https://sso.yuetoto.com/api/v2/avatar/150ebbdc474b474a0dc22713cb4ffe5c'}
+  良心云: {<<: *BaseProvider, url: 'https://liangxin.xyz/api/v1/liangxin?OwO=67d2b668cb92e546076213a6fa86de82'}
+  吹雪云: {<<: *BaseProvider, url: 'https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=56aa83f64f806bdf830e1b83de92f1c0'}
+
+# ==================== 核心配置 ====================
+# 基础配置
+mode: rule
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+log-level: warning
+bind-address: '*'
+find-process-mode: 'always'
+keep-alive-interval: 15
+keep-alive-idle: 600
+
+# 认证配置
+authentication:
+  - mihomo:yyds666
+skip-auth-prefixes:
+  - 192.168.1.0/24
+  - 192.168.31.0/24
+  - 192.168.100.0/24
+  - 127.0.0.1/8
+
+# 实验性功能
+experimental:
+  quic-go-disable-gso: true    
+
+# 配置存储
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# 流量嗅探
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+# TUN模式配置
+tun:
+  enable: false
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+    
+# DNS配置
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 119.29.29.29
+    - 180.184.1.1
+    - 223.5.5.5
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fake-ip-filter:
+    - rule-set:Direct
+    - rule-set:Private
+    - rule-set:China
+    - +.miwifi.com
+    - +.docker.io
+    - +.market.xiaomi.com
+    - +.push.apple.com
+
+# ==================== 代理策略组 ====================
+proxy-groups:
+  - {name: 全球代理,  <<: *SelectOne}
+  - name: EMBY
+    type: select
+    proxies:
+      - DIRECT
+      - 香港自动
+      - 台湾自动
+      - 日本自动
+      - 狮城自动
+      - 韩国自动
+      - 美国自动
+    use:
+      - 悦通
+    # 正则表达式
+    filter: '(?i)(日本家宽2|日本AI解锁2|美国家宽2)'
+  - {name: 电报平台,  <<: *SelectFollowGlobal}
+  - {name: 海外媒体,  <<: *SelectFollowGlobal}
+  - {name: 智能助理,  <<: *SelectAI}  
+  - {name: 谷歌服务,  <<: *SelectFollowGlobal}
+  - {name: 微软服务,  <<: *SelectFollowGlobal}
+  - {name: 香港自动,  <<: *BaseUT, filter: *FilterHK, use: [吹雪云]}
+  - {name: 台湾自动,  <<: *BaseUT, filter: *FilterTW, use: [吹雪云]}
+  - {name: 日本自动,  <<: *BaseUT, filter: *FilterJP, use: [吹雪云]}
+  - {name: 狮城自动,  <<: *BaseUT, filter: *FilterSG, use: [吹雪云]}
+  - {name: 韩国自动,  <<: *BaseUT, filter: *FilterKR, use: [吹雪云]}
+  - {name: 美国自动,  <<: *BaseUT, filter: *FilterUS, use: [吹雪云]}
+  
+# ==================== 规则路由 ====================
+rules: 
+  # 拦截规则
+  - RULE-SET,Tracking,REJECT
+  - RULE-SET,Advertising,REJECT
+  - AND,((DST-PORT,443),(NETWORK,UDP),(NOT,((GEOIP,CN)))),REJECT  # 阻止海外 QUIC
+
+   # 域名规则
+  - RULE-SET,Private,DIRECT
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,AI,智能助理
+  - RULE-SET,EMBY,EMBY
+  - RULE-SET,Twitter,海外媒体
+  - RULE-SET,Telegram,电报平台
+  - RULE-SET,SocialMedia,海外媒体
+  - RULE-SET,NewsMedia,海外媒体
+  - RULE-SET,YouTube,海外媒体
+  - RULE-SET,Google,谷歌服务
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,Proxy,全球代理
+  - RULE-SET,China,DIRECT
+
+  # IP规则
+  - RULE-SET,AdvertisingIP,REJECT,no-resolve
+  - RULE-SET,PrivateIP,DIRECT,no-resolve
+  - RULE-SET,AIIP,智能助理,no-resolve
+  - RULE-SET,TelegramIP,电报平台,no-resolve
+  - RULE-SET,GoogleIP,谷歌服务,no-resolve
+  - RULE-SET,ProxyIP,全球代理,no-resolve
+  - RULE-SET,ChinaIP,DIRECT
+
+  # 兜底规则
+  - MATCH,全球代理
+
+# ==================== 规则集 ====================
+# 规则集行为模板
+BehaviorDN: &BehaviorDN {type: http, behavior: domain, format: mrs, interval: 86400}
+BehaviorIP: &BehaviorIP {type: http, behavior: ipcidr, format: mrs, interval: 86400}
+rule-providers: 
+  Tracking:       {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Tracking.mrs}
+  Advertising:    {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Advertising.mrs}
+  Direct:         {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Direct.mrs}
+  Private:        {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Private.mrs}
+  Download:       {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Download.mrs}
+  AI:             {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/AI.mrs}
+  EMBY:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/hiknn/rule/refs/heads/main/QuanX/Emby"
+    path: ./rules/Emby.txt
+    interval: 86400
+  Telegram:       {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Telegram.mrs}
+  Twitter:        {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Twitter.mrs} 
+  YouTube:        {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/YouTube.mrs}
+  SocialMedia:    {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/SocialMedia.mrs}
+  NewsMedia:      {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/NewsMedia.mrs}
+  Microsoft:      {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Microsoft.mrs}  
+  Google:         {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Google.mrs}
+  Proxy:          {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Proxy.mrs}
+  China:          {<<: *BehaviorDN, url: https://github.com/666OS/rules/raw/release/mihomo/domain/China.mrs}
+  # IP规则
+  AdvertisingIP:  {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Advertising.mrs}
+  PrivateIP:      {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Private.mrs}
+  AIIP:           {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/AI.mrs}
+  TelegramIP:     {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Telegram.mrs}  
+  GoogleIP:       {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Google.mrs}
+  ProxyIP:        {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/Proxy.mrs} 
+  ChinaIP:        {<<: *BehaviorIP, url: https://github.com/666OS/rules/raw/release/mihomo/ip/China.mrs}
+  # ==================== EOF ====================
