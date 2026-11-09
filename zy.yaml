@@ -25,9 +25,9 @@ SelectFollowGlobal: &SelectFollowGlobal {type: select, proxies: [DIRECT, 全球�
 # ==================== 代理提供者 ====================
 proxy-providers:
 
-  悦通: {<<: *BaseProvider, url: ''}
-  良心云: {<<: *BaseProvider, url: '2'}
-  吹雪云: {<<: *BaseProvider, url: ''}
+  悦通: {<<: *BaseProvider, url: 'https://xn--9kqs1lo79d.cc/api/v1/chuixue?token=56aa83f64f806bdf830e1b83de92f1c0'}
+  良心云: {<<: *BaseProvider, url: 'https://liangxin.xyz/api/v1/liangxin?OwO=67d2b668cb92e546076213a6fa86de82'}
+  吹雪云: {<<: *BaseProvider, url: 'https://sso.yuetoto.com/api/v2/avatar/6902e65e642ebceee3e345bd01eeb44c'}
 
 # ==================== 核心配置 ====================
 # 基础配置
