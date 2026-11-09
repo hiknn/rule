@@ -116,20 +116,8 @@ dns:
 # ==================== 代理策略组 ====================
 proxy-groups:
   - {name: 全球代理,  <<: *SelectOne}
-  - name: EMBY
-    type: select
-    proxies:
-      - DIRECT
-      - 香港自动
-      - 台湾自动
-      - 日本自动
-      - 狮城自动
-      - 韩国自动
-      - 美国自动
-    use:
-      - 悦通
-    # 正则表达式
-    filter: '(?i)(日本家宽2|日本AI解锁2|美国家宽2)'
+  - {name: EMBY,  <<: *SelectOne}
+  
   - {name: 电报平台,  <<: *SelectFollowGlobal}
   - {name: 海外媒体,  <<: *SelectFollowGlobal}
   - {name: 智能助理,  <<: *SelectAI}  
